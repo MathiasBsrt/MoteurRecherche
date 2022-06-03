@@ -27,8 +27,6 @@ Vous pouvez retrouver le code dans ``src/IHM``
 
 ## Ressources
 
-Les guide d'utilisations des outils utiles pour le projet se trouvent dans le dossier ``guide/``.
-
 Pour accèder à la documentation du code, ouvrez le fichier ``doxygen/html/index.html``
 La liste des fonctions et des structures sont disponibles à partir des menus.
 

@@ -1,0 +1,41 @@
+@startuml
+class VueRechercher{
+
+
+  void lancerRecherche()
+  entreeClavier(saisieUtilisateur)
+  
+}
+
+
+class ControlRechercher{
+void lancerRecherche()
+  rechercherParDocument(cheminFichier, seuil, typeDoc):Resultat[*] 
+  rechercheMonoCritere(critere, seuil, typeDoc):Resultat[*] 
+  rechercheRecherMultiCriteres(criteres[], seuil,typeDoc) :Resultat[*] 
+  void incrementeCompteurCriteres()
+
+}
+
+
+class Resultats{
+    String cheminFichier
+    float pourcentage
+    Resultat(cheminFichier, pourcentage)
+}
+
+class InterfaceMoteur{
+
+  rechercherParDocument(cheminFichier, seuil) : String 
+  rechercheCritere(critere, seuil) : String
+}
+
+class ParametreRecherche{
+
+}
+
+VueRechercher --> "1" ControlRechercher
+ControlRechercher --> "1" InterfaceMoteur
+ControlRechercher --> "*" Resultats
+ControlRechercher --> "1" ParametreRecherche
+@enduml

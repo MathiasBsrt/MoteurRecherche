@@ -1,0 +1,31 @@
+@startuml
+Utilisateur -> VueMenu : lancerRecherche()
+VueMenu-> VueRechercher : lancerRecherche()
+
+VueRechercher -> Utilisateur : "Quel type de document voulez-vous rechercher ? 1. Son 2. Image 3. Texte"
+
+Utilisateur -> VueRechercher : entréeClavier(typeDoc)
+
+System -> Utilisateur : "Quel type de rechercher voulez-vous effectuer ? 1. Par document 2. Critères"
+Utilisateur -> System : entréeClavier(typeDoc)
+
+ref over Utilisateur, VueMenu, VueRechercher, controlRechercher : Paramètrage de la recherche
+
+alt document
+      VueRechercher -> Utilisateur : "Veuillez saisir le chemin du fichier à rechercher"
+      Utilisateur -> VueRechercher : entréeClavier(cheminFichier)
+
+VueRechercher -> controlRechercher : rechercheParDocument(cheminFichier, seuil, typeDoc)
+controlRechercher -> interfaceMoteur : rechercherParDocument(cheminFichier, seuil, typeDoc) 
+interfaceMoteur -> controlRechercher : resultats
+controlRechercher -> VueRechercher : resultats
+
+alt resultats == null
+    ref over Utilisateur, VueRechercher, VueMenu, controlRechercher : Affichage erreur
+else resultats != null
+   ref over Utilisateur, VueRechercher, VueMenu, controlRechercher : Affichage des résultats
+end
+else critère
+    ref over Utilisateur, VueRechercher, VueMenu, controlRechercher : Recherche par critères
+end
+@enduml

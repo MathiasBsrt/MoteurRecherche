@@ -1,0 +1,52 @@
+@startuml
+left to right direction
+
+User -- (Visualiser les résultats)
+
+(Ouvrir un document) ..> (Visualiser les résultats) : extend
+(Visualiser les résultats) ..> (Visualiser les erreurs) : include
+(Visualiser les résultats) ..> (Consulter le nouveau résultat) : include
+(sauvegarder recherche) ..> (Visualiser les résultats) : extends
+(consulter les résultats enregistrés) ..> (Visualiser les résultats) : extends
+
+
+
+User -- (Rechercher)
+
+(Rechercher documents image)  --|> (Rechercher)
+(Rechercher documents son) --|> (Rechercher)
+(Rechercher documents texte)--|> (Rechercher)
+
+(Selectionner le mode de recherche) <.left. (Rechercher) : include
+(Selectionner le mode de recherche) .left.> (Consulter descripteur) : extend
+(Indexer) <.. (Selectionner le mode de recherche) : extend
+
+(Rechercher) ..> (Selectionner les moteurs) : include
+
+(Rechercher) <.. (Recherche simple par document) : extend
+(Rechercher) <.. (Recherche par critères) : extend
+(Rechercher) ..> (Saisir seuil de selection) : include
+
+(Recherche simple par document) ..> (Saisir chemin du document) : include
+(Recherche par critères) ..> (Saisir les critères) : include
+
+
+
+(Rechercher) ..> (Consulter descripteur) : include
+
+(Consulter descripteur) --|> (Descripteur)
+
+Admin -left- (s'identifier)
+(initialiser mot de passe) .right.> (s'identifier): extend
+Admin -- (paramètrer les seuils de recherche)
+Admin -- (Indexer)
+
+(Indexer documents image)  -left-|> (Indexer)
+(Indexer documents son) -left-|> (Indexer)
+(Indexer documents texte)-left-|> (Indexer)
+
+(indexer un fichier) .up.> (Indexer) : extend
+(indexer un dossier) .> (Indexer) : extend
+(Creer descripteur) --|> (Descripteur)
+(Indexer) ..> (Creer descripteur) : include
+@enduml

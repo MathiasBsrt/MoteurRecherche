@@ -1,0 +1,1051 @@
+Script started on 2021-01-22 13:48:42+01:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="126" LINES="37"]
+]0;mathias@pop-os: ~/pfr/src[01;32mmathias@pop-os[00m:[01;34m~/pfr/src[00m$ cleard Menus/ && make clean[15Pgit pushcd Menus/ && make clean
+rm -rf Outils_Index_Image.o Outils_Recherche_audio.o Outils_Index_audio.o Outils_Recherche_Texte.o Interprete_de_commandes.o Outils_Index_Texte.o Outils_Recherche_Image.o ../module_texte/xml_tokenizer.o ../module_texte/xml_cleaner.o ../module_texte/outils.o ../module_texte/recherche.o ../module_texte/indexationTexteTest.o ../module_texte/xml_index.o ../module_texte/index/index.o ../module_texte/MOT/mot.o ../module_texte/pile/pile_dynamique.o ../module_texte/xml_tokenizer.o ../module_texte/xml_cleaner.o ../module_texte/outils.o ../module_texte/recherche.o ../module_texte/indexationTexteTest.o ../module_texte/xml_index.o ../module_texte/index/index.o ../module_texte/MOT/mot.o ../module_texte/pile/pile_dynamique.o ../module_audio/descripteur.o ../module_audio/test_wav_helper.o ../module_audio/wav_file_helper.o ../module_audio/test_audio.o ../module_audio/test_recherche.o ../module_audio/test_evaluation.o ../module_audio/histogramme.o ../module_audio/main_histo.o ../module_audio/base_descripteur.o ../module_audio/pile_dynamique.o ../sauvegardes/txt/liste_base_descripteurs 
+rm -rf ../sauvegardes/txt/liste_base_descripteurs ../sauvegardes/img/* ../base_descripteur_audio ../liste_base_audio ../sauvegarde.desc ../sauvegarde.index
+]0;mathias@pop-os: ~/pfr/src/Menus[01;32mmathias@pop-os[00m:[01;34m~/pfr/src/Menus[00m$ cd Menus/ && make cleanlear[Kd Menus/ && make cleanlear[Kd Menus/ && make clean[Kcd Menus/ && make cleanlear[Kd Menus/ && make clean[15Pgit pushcommit -m "afficae iamge"add .[K./moteur_recherche cd Menus/ && make && cd ..
+bash: cd: Menus/: Aucun fichier ou dossier de ce type
+]0;mathias@pop-os: ~/pfr/src/Menus[01;32mmathias@pop-os[00m:[01;34m~/pfr/src/Menus[00m$ cd ..
+]0;mathias@pop-os: ~/pfr/src[01;32mmathias@pop-os[00m:[01;34m~/pfr/src[00m$ cd ..Menus/ && make && cd ..
+make[1] : on entre dans le répertoire « /home/mathias/pfr/src/Menus »
+gcc -o ../module_audio/descripteur.o -c ../module_audio/descripteur.c -W -Wall -g
+gcc -o ../module_audio/test_wav_helper.o -c ../module_audio/test_wav_helper.c -W -Wall -g
+gcc -o ../module_audio/wav_file_helper.o -c ../module_audio/wav_file_helper.c -W -Wall -g
+gcc -o ../module_audio/test_audio.o -c ../module_audio/test_audio.c -W -Wall -g
+gcc -o ../module_audio/test_recherche.o -c ../module_audio/test_recherche.c -W -Wall -g
+gcc -o ../module_audio/test_evaluation.o -c ../module_audio/test_evaluation.c -W -Wall -g
+gcc -o ../module_audio/histogramme.o -c ../module_audio/histogramme.c -W -Wall -g
+gcc -o ../module_audio/main_histo.o -c ../module_audio/main_histo.c -W -Wall -g
+gcc -o ../module_audio/base_descripteur.o -c ../module_audio/base_descripteur.c -W -Wall -g
+gcc -o ../module_audio/pile_dynamique.o -c ../module_audio/pile_dynamique.c -W -Wall -g
+gcc -o ../module_texte/xml_tokenizer.o -c ../module_texte/xml_tokenizer.c -W -Wall -g
+gcc -o ../module_texte/xml_cleaner.o -c ../module_texte/xml_cleaner.c -W -Wall -g
+gcc -o ../module_texte/outils.o -c ../module_texte/outils.c -W -Wall -g
+gcc -o ../module_texte/recherche.o -c ../module_texte/recherche.c -W -Wall -g
+gcc -o ../module_texte/indexationTexteTest.o -c ../module_texte/indexationTexteTest.c -W -Wall -g
+gcc -o ../module_texte/xml_index.o -c ../module_texte/xml_index.c -W -Wall -g
+gcc -o ../module_texte/index/index.o -c ../module_texte/index/index.c -W -Wall -g
+[01m[K../module_texte/index/index.c:[m[K In function ‘[01m[KAjout_Dans_Table_index[m[K’:
+[01m[K../module_texte/index/index.c:84:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+   84 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+gcc -o ../module_texte/MOT/mot.o -c ../module_texte/MOT/mot.c -W -Wall -g
+gcc -o ../module_texte/pile/pile_dynamique.o -c ../module_texte/pile/pile_dynamique.c -W -Wall -g
+[01m[K../module_texte/pile/pile_dynamique.c:[m[K In function ‘[01m[KDEPILE_desc[m[K’:
+[01m[K../module_texte/pile/pile_dynamique.c:269:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  269 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+gcc -o Outils_Index_Image.o -c Outils_Index_Image.c -W -Wall -g
+gcc -o Outils_Index_audio.o -c Outils_Index_audio.c -W -Wall -g
+[01m[KOutils_Index_audio.c:[m[K In function ‘[01m[KMenuIndexation_audio[m[K’:
+[01m[KOutils_Index_audio.c:130:38:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KPILE_desc_estVide[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+  130 |             while(!PILE_desc_estVide([01;35m[Kpile_desc[m[K))
+      |                                      [01;35m[K^~~~~~~~~[m[K
+      |                                      [01;35m[K|[m[K
+      |                                      [01;35m[KPILE_AUDIO {aka struct cellule_audio_t *}[m[K
+In file included from [01m[K../module_texte/Header.h:12[m[K,
+                 from [01m[Kheader.h:12[m[K,
+                 from [01m[KOutils_Index_audio.c:11[m[K:
+[01m[K../module_texte/pile/pile_dynamique.h:120:46:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KPILE_descripteur_texte[m[K’ {aka ‘[01m[Kstruct s_Descripteur *[m[K’} but argument is of type ‘[01m[KPILE_AUDIO[m[K’ {aka ‘[01m[Kstruct cellule_audio_t *[m[K’}
+  120 | int PILE_desc_estVide([01;36m[KPILE_descripteur_texte d[m[K);
+      |                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+gcc -o Outils_Recherche_Texte.o -c Outils_Recherche_Texte.c -W -Wall -g
+gcc -o Interprete_de_commandes.o -c Interprete_de_commandes.c -W -Wall -g
+gcc -o Outils_Index_Texte.o -c Outils_Index_Texte.c -W -Wall -g
+[01m[KOutils_Index_Texte.c:[m[K In function ‘[01m[KMenuIndexation_texte[m[K’:
+[01m[KOutils_Index_Texte.c:28:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvaleur_Limite[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   28 |     int seuil, [01;35m[Kvaleur_Limite[m[K;
+      |                [01;35m[K^~~~~~~~~~~~~[m[K
+gcc -o Outils_Recherche_Image.o -c Outils_Recherche_Image.c -W -Wall -g
+gcc -o Outils_Recherche_audio.o -c Outils_Recherche_audio.c -W -Wall -g
+make[1] : on quitte le répertoire « /home/mathias/pfr/src/Menus »
+]0;mathias@pop-os: ~/pfr/src[01;32mmathias@pop-os[00m:[01;34m~/pfr/src[00m$ pwd
+/home/mathias/pfr/src
+]0;mathias@pop-os: ~/pfr/src[01;32mmathias@pop-os[00m:[01;34m~/pfr/src[00m$ ./moteur_recherche 
+[H[2J[3J///	Création Mot de passe	///
+ saisir un mot de passe (max 128): bonjour
+Veuillez a nouveau entrer le mot de passe : bonju     bonjour
+le mot de passe est alors : bonjour
+Mot de passe enregistré avec succès...
+Appuyer sur la touche Entrée pour continuer...
+
+[H[2J[3J///	MENU	///
+1. Indexation
+2. Recherche
+3. Réinitialiser le mot de passe
+4. Retour
+Veuillez choisir une action :
+3
+[H[2J[3J///	Réinitialisation Mot de passe	///
+ saisir un mot de passe (max 128): boir
+Veuillez a nouveau entrer le mot de passe : boir
+le mot de passe est alors : boir
+Mot de passe enregistré avec succès...
+Appuyer sur la touche Entrée pour continuer...
+
+[H[2J[3J///	MENU	///
+1. Indexation
+2. Recherche
+3. Réinitialiser le mot de passe
+4. Retour
+Veuillez choisir une action :
+3
+[H[2J[3J///	Réinitialisation Mot de passe	///
+ saisir un mot de passe (max 128): vendre
+Veuillez a nouveau entrer le mot de passe : vendret
+[H[2J[3J///	Réinitialisation Mot de passe	///
+ saisir un mot de passe (max 128): vendre
+Veuillez a nouveau entrer le mot de passe : vendre
+le mot de passe est alors : vendre
+Mot de passe enregistré avec succès...
+Appuyer sur la touche Entrée pour continuer...
+
+[H[2J[3J///	MENU	///
+1. Indexation
+2. Recherche
+3. Réinitialiser le mot de passe
+4. Retour
+Veuillez choisir une action :
+4
+[H[2J[3J]0;mathias@pop-os: ~/pfr/src[01;32mmathias@pop-os[00m:[01;34m~/pfr/src[00m$ ./moteur_recherche 
+[H[2J[3J///	MENU	///
+1. Indexation
+2. Recherche
+3. Réinitialiser le mot de passe
+4. Retour
+Veuillez choisir une action :
+1
+Veuillez entrer le mot de passe admin : vendre
+[H[2J[3J///	MENU INDEXATION	///
+1. Indexation audio
+2. Indexation Image
+3. Indexation Texte
+4. Retour
+Veuillez choisir une action :
+3 6
+Veuillez choisir une action valide.
+[H[2J[3J///	MENU INDEXATION	///
+1. Indexation audio
+2. Indexation Image
+3. Indexation Texte
+4. Retour
+Veuillez choisir une action :
+3
+[H[2J[3J///	MENU INDEXATION TEXTE	///
+1. Indexer un fichier
+2. Indexer un dossier
+3. Sauvegarder et quitter
+Veuillez choisir une action :
+2
+Entrer un nom de dossier correct à indexer : module_texte/Textes
+Entrer maintenant un seuil qui définira les mots ignorés en fonction de leur nombre d'apparition (0 pour ignorer ce paramètre) : 0
+--> Dossier en cours d'indexation
+	=======INDEXATION DOSSIER TERMINÉE=======
+Retour au menu Indexation texte...
+Appuyer sur la touche Entrée pour continuer...
+
+[H[2J[3J///	MENU INDEXATION TEXTE	///
+1. Indexer un fichier
+2. Indexer un dossier
+3. Sauvegarder et quitter
+Veuillez choisir une action :
+3
+Sauvegarde terminée. Retour vers le menu indexation
+[H[2J[3J///	MENU INDEXATION	///
+1. Indexation audio
+2. Indexation Image
+3. Indexation Texte
+4. Retour
+Veuillez choisir une action :
+4
+[H[2J[3J///	MENU	///
+1. Indexation
+2. Recherche
+3. Réinitialiser le mot de passe
+4. Retour
+Veuillez choisir une action :
+2
+[H[2J[3J///	MENU RECHERCHE	///
+1. Recherche Audio
+2. Recherche Image
+3. Recherche Texte
+4. Retour
+Veuillez choisir une action :
+3
+[H[2J[3J///	MENU RECHERCHE TEXTE	///
+Vous souhaitez lancer une recherche : 
+1. Par critères
+2.Par Document
+
+3. Retour
+Veuillez choisir une action :
+1
+Entrer un mot a chercher : football
+recherche par critère...
+nb_max=8
+chemin trouvé : module_texte/Textes/05-Au_stade_d_Abidjan,_la_défaite.xmlchemin trouvé=module_texte/Textes/05-Au_stade_d_Abidjan,_la_défaite.xml
+chemin trouvé : module_texte/Textes/22-Les_clubs_de_football_anglais.xmlchemin trouvé=module_texte/Textes/22-Les_clubs_de_football_anglais.xml
+chemin trouvé : module_texte/Textes/15-Lille_s_incline_dans_les.xmlchemin trouvé=module_texte/Textes/15-Lille_s_incline_dans_les.xml
+chemin trouvé : module_texte/Textes/06-Les_mauvais_comptes_d_une_élimination.xmlchemin trouvé=module_texte/Textes/06-Les_mauvais_comptes_d_une_élimination.xml
+chemin trouvé : module_texte/Textes/15-_Si_on_veut_aller_trop.xmlchemin trouvé=module_texte/Textes/15-_Si_on_veut_aller_trop.xml
+chemin trouvé : module_texte/Textes/27-Le_Stade_de_France_s_ouvre.xmlchemin trouvé=module_texte/Textes/27-Le_Stade_de_France_s_ouvre.xml
+chemin trouvé : module_texte/Textes/08-L_équipe_de_France_victime_d_un.xmlchemin trouvé=module_texte/Textes/08-L_équipe_de_France_victime_d_un.xml
+chemin trouvé : module_texte/Textes/13-Ligue_des_champions____Si.xmlchemin trouvé=module_texte/Textes/13-Ligue_des_champions____Si.xml
+Souhaitez vous afficher le meilleur résultat (y/n)? y
+[H[2J[3JAppuyer sur la touche Entrée pour continuer...
+
+[H[2J[3J///	MENU RECHERCHE TEXTE	///
+Vous souhaitez lancer une recherche : 
+1. Par critères
+2.Par Document
+
+3. Retour
+Veuillez choisir une action :
+1
+Entrer un mot a chercher : musique
+recherche par critère...
+nb_max=11
+chemin trouvé : module_texte/Textes/08-Carlos_do_Carmo____Le.xmlchemin trouvé=module_texte/Textes/08-Carlos_do_Carmo____Le.xml
+chemin trouvé : module_texte/Textes/12-Musique_classique___un__Oberon_.xmlchemin trouvé=module_texte/Textes/12-Musique_classique___un__Oberon_.xml
+chemin trouvé : module_texte/Textes/05-Prague_inaugure_les_Journées_européennes.xmlchemin trouvé=module_texte/Textes/05-Prague_inaugure_les_Journées_européennes.xml
+chemin trouvé : module_texte/Textes/17-La_voix_envoûtante_de_Girija.xmlchemin trouvé=module_texte/Textes/17-La_voix_envoûtante_de_Girija.xml
+chemin trouvé : module_texte/Textes/28-Festival___Ososphère,_un_week-end.xmlchemin trouvé=module_texte/Textes/28-Festival___Ososphère,_un_week-end.xml
+chemin trouvé : module_texte/Textes/15-Le_Théâtre_des_Champs-Elysées_s_offre.xmlchemin trouvé=module_texte/Textes/15-Le_Théâtre_des_Champs-Elysées_s_offre.xml
+chemin trouvé : module_texte/Textes/26-Jazz___Manu_Katché,_haut.xmlchemin trouvé=module_texte/Textes/26-Jazz___Manu_Katché,_haut.xml
+chemin trouvé : module_texte/Textes/05-Musique_électronique___l_élan_collectif.xmlchemin trouvé=module_texte/Textes/05-Musique_électronique___l_élan_collectif.xml
+chemin trouvé : module_texte/Textes/12-Musiques_du_monde___les.xmlchemin trouvé=module_texte/Textes/12-Musiques_du_monde___les.xml
+chemin trouvé : module_texte/Textes/22-Danse___quarante_jeunes_de.xmlchemin trouvé=module_texte/Textes/22-Danse___quarante_jeunes_de.xml
+chemin trouvé : module_texte/Textes/15-Danse___Preljocaj_emmène_l_Opéra.xmlchemin trouvé=module_texte/Textes/15-Danse___Preljocaj_emmène_l_Opéra.xml
+Souhaitez vous afficher le meilleur résultat (y/n)? n
+Appuyer sur la touche Entrée pour continuer...
+
+[H[2J[3J///	MENU RECHERCHE TEXTE	///
+Vous souhaitez lancer une recherche : 
+1. Par critères
+2.Par Document
+
+3. Retour
+Veuillez choisir une action :
+2
+Entrer un nom de fichier correct a rechercher : module_texte\ /texte     Textes/12-Musique_classique___un__Oberon_.xml
+Entrer un seuil de similarité : 10
+on cherche le descripteur correspondant
+parcours id :1
+parcours id :2
+parcours id :3
+parcours id :4
+parcours id :5
+parcours id :6
+parcours id :7
+parcours id :8
+parcours id :9
+parcours id :10
+parcours id :11
+parcours id :12
+parcours id :13
+parcours id :14
+parcours id :15
+parcours id :16
+parcours id :17
+parcours id :18
+parcours id :19
+parcours id :20
+parcours id :21
+parcours id :22
+parcours id :23
+parcours id :24
+parcours id :25
+parcours id :26
+parcours id :27
+parcours id :28
+parcours id :29
+parcours id :30
+parcours id :31
+parcours id :32
+parcours id :33
+parcours id :34
+parcours id :35
+ descripteur bien trouvé
+
+chemin trouvé : module_texte/Textes/12-Musique_classique___un__Oberon_.xml
+similaire sur 8 cases
+Similaire à 4.232804 pourcents
+seuil = 10.000000
+
+similaire sur 9 cases
+Similaire à 4.761905 pourcents
+seuil = 10.000000
+
+similaire sur 11 cases
+Similaire à 5.820106 pourcents
+seuil = 10.000000
+
+similaire sur 15 cases
+Similaire à 7.936508 pourcents
+seuil = 10.000000
+
+similaire sur 11 cases
+Similaire à 5.820106 pourcents
+seuil = 10.000000
+
+similaire sur 16 cases
+Similaire à 8.465608 pourcents
+seuil = 10.000000
+
+similaire sur 5 cases
+Similaire à 2.645503 pourcents
+seuil = 10.000000
+
+similaire sur 16 cases
+Similaire à 8.465608 pourcents
+seuil = 10.000000
+
+similaire sur 10 cases
+Similaire à 5.291005 pourcents
+seuil = 10.000000
+
+similaire sur 12 cases
+Similaire à 6.349206 pourcents
+seuil = 10.000000
+
+similaire sur 6 cases
+Similaire à 3.174603 pourcents
+seuil = 10.000000
+
+similaire sur 6 cases
+Similaire à 3.174603 pourcents
+seuil = 10.000000
+
+similaire sur 11 cases
+Similaire à 5.820106 pourcents
+seuil = 10.000000
+
+similaire sur 10 cases
+Similaire à 5.291005 pourcents
+seuil = 10.000000
+
+similaire sur 5 cases
+Similaire à 2.645503 pourcents
+seuil = 10.000000
+
+similaire sur 7 cases
+Similaire à 3.703704 pourcents
+seuil = 10.000000
+
+similaire sur 23 cases
+Similaire à 12.169312 pourcents
+seuil = 10.000000
+chemin trouvé : module_texte/Textes/22-Exposition___les_métamorphoses_picturales.xmlfichier similaire : module_texte/Textes/22-Exposition___les_métamorphoses_picturales.xml 
+
+similaire sur 18 cases
+Similaire à 9.523810 pourcents
+seuil = 10.000000
+
+similaire sur 15 cases
+Similaire à 7.936508 pourcents
+seuil = 10.000000
+
+similaire sur 16 cases
+Similaire à 8.465608 pourcents
+seuil = 10.000000
+
+similaire sur 15 cases
+Similaire à 7.936508 pourcents
+seuil = 10.000000
+
+similaire sur 11 cases
+Similaire à 5.820106 pourcents
+seuil = 10.000000
+
+similaire sur 8 cases
+Similaire à 4.232804 pourcents
+seuil = 10.000000
+
+similaire sur 7 cases
+Similaire à 3.703704 pourcents
+seuil = 10.000000
+
+similaire sur 8 cases
+Similaire à 4.232804 pourcents
+seuil = 10.000000
+
+similaire sur 9 cases
+Similaire à 4.761905 pourcents
+seuil = 10.000000
+
+similaire sur 9 cases
+Similaire à 4.761905 pourcents
+seuil = 10.000000
+
+similaire sur 10 cases
+Similaire à 5.291005 pourcents
+seuil = 10.000000
+
+similaire sur 10 cases
+Similaire à 5.291005 pourcents
+seuil = 10.000000
+
+similaire sur 8 cases
+Similaire à 4.232804 pourcents
+seuil = 10.000000
+
+similaire sur 10 cases
+Similaire à 5.291005 pourcents
+seuil = 10.000000
+
+similaire sur 14 cases
+Similaire à 7.407407 pourcents
+seuil = 10.000000
+
+similaire sur 9 cases
+Similaire à 4.761905 pourcents
+seuil = 10.000000
+
+similaire sur 15 cases
+Similaire à 7.936508 pourcents
+seuil = 10.000000
+
+similaire sur 9 cases
+Similaire à 4.761905 pourcents
+seuil = 10.000000
+
+similaire sur 13 cases
+Similaire à 6.878307 pourcents
+seuil = 10.000000
+
+similaire sur 10 cases
+Similaire à 5.291005 pourcents
+seuil = 10.000000
+
+similaire sur 14 cases
+Similaire à 7.407407 pourcents
+seuil = 10.000000
+
+similaire sur 8 cases
+Similaire à 4.232804 pourcents
+seuil = 10.000000
+
+similaire sur 16 cases
+Similaire à 8.465608 pourcents
+seuil = 10.000000
+
+similaire sur 7 cases
+Similaire à 3.703704 pourcents
+seuil = 10.000000
+
+similaire sur 6 cases
+Similaire à 3.174603 pourcents
+seuil = 10.000000
+
+similaire sur 9 cases
+Similaire à 4.761905 pourcents
+seuil = 10.000000
+
+similaire sur 17 cases
+Similaire à 8.994709 pourcents
+seuil = 10.000000
+
+similaire sur 10 cases
+Similaire à 5.291005 pourcents
+seuil = 10.000000
+
+similaire sur 17 cases
+Similaire à 8.994709 pourcents
+seuil = 10.000000
+
+similaire sur 20 cases
+Similaire à 10.582011 pourcents
+seuil = 10.000000
+chemin trouvé : module_texte/Textes/05-Le_théâtre_de_texte_confronté.xmlfichier similaire : module_texte/Textes/05-Le_théâtre_de_texte_confronté.xml 
+
+similaire sur 6 cases
+Similaire à 3.174603 pourcents
+seuil = 10.000000
+
+similaire sur 13 cases
+Similaire à 6.878307 pourcents
+seuil = 10.000000
+
+similaire sur 8 cases
+Similaire à 4.232804 pourcents
+seuil = 10.000000
+
+similaire sur 15 cases
+Similaire à 7.936508 pourcents
+seuil = 10.000000
+
+similaire sur 9 cases
+Similaire à 4.761905 pourcents
+seuil = 10.000000
+
+similaire sur 20 cases
+Similaire à 10.582011 pourcents
+seuil = 10.000000
+chemin trouvé : module_texte/Textes/28-_Œdipe_à_Colone_,_la_rage.xmlfichier similaire : module_texte/Textes/28-_Œdipe_à_Colone_,_la_rage.xml 
+
+similaire sur 6 cases
+Similaire à 3.174603 pourcents
+seuil = 10.000000
+
+similaire sur 9 cases
+Similaire à 4.761905 pourcents
+seuil = 10.000000
+
+similaire sur 10 cases
+Similaire à 5.291005 pourcents
+seuil = 10.000000
+
+similaire sur 12 cases
+Similaire à 6.349206 pourcents
+seuil = 10.000000
+
+similaire sur 11 cases
+Similaire à 5.820106 pourcents
+seuil = 10.000000
+
+similaire sur 15 cases
+Similaire à 7.936508 pourcents
+seuil = 10.000000
+
+similaire sur 13 cases
+Similaire à 6.878307 pourcents
+seuil = 10.000000
+
+similaire sur 10 cases
+Similaire à 5.291005 pourcents
+seuil = 10.000000
+
+similaire sur 10 cases
+Similaire à 5.291005 pourcents
+seuil = 10.000000
+
+similaire sur 10 cases
+Similaire à 5.291005 pourcents
+seuil = 10.000000
+
+similaire sur 15 cases
+Similaire à 7.936508 pourcents
+seuil = 10.000000
+
+similaire sur 6 cases
+Similaire à 3.174603 pourcents
+seuil = 10.000000
+
+similaire sur 5 cases
+Similaire à 2.645503 pourcents
+seuil = 10.000000
+
+similaire sur 15 cases
+Similaire à 7.936508 pourcents
+seuil = 10.000000
+
+similaire sur 10 cases
+Similaire à 5.291005 pourcents
+seuil = 10.000000
+
+similaire sur 9 cases
+Similaire à 4.761905 pourcents
+seuil = 10.000000
+
+similaire sur 11 cases
+Similaire à 5.820106 pourcents
+seuil = 10.000000
+
+similaire sur 5 cases
+Similaire à 2.645503 pourcents
+seuil = 10.000000
+
+similaire sur 9 cases
+Similaire à 4.761905 pourcents
+seuil = 10.000000
+
+similaire sur 18 cases
+Similaire à 9.523810 pourcents
+seuil = 10.000000
+
+similaire sur 4 cases
+Similaire à 2.116402 pourcents
+seuil = 10.000000
+
+similaire sur 4 cases
+Similaire à 2.116402 pourcents
+seuil = 10.000000
+
+similaire sur 13 cases
+Similaire à 6.878307 pourcents
+seuil = 10.000000
+
+similaire sur 9 cases
+Similaire à 4.761905 pourcents
+seuil = 10.000000
+
+similaire sur 7 cases
+Similaire à 3.703704 pourcents
+seuil = 10.000000
+
+similaire sur 10 cases
+Similaire à 5.291005 pourcents
+seuil = 10.000000
+
+similaire sur 12 cases
+Similaire à 6.349206 pourcents
+seuil = 10.000000
+
+similaire sur 12 cases
+Similaire à 6.349206 pourcents
+seuil = 10.000000
+
+similaire sur 11 cases
+Similaire à 5.820106 pourcents
+seuil = 10.000000
+après tri
+module_texte/Textes/22-Exposition___les_métamorphoses_picturales.xml -> 12 
+module_texte/Textes/05-Le_théâtre_de_texte_confronté.xml -> 10 
+module_texte/Textes/28-_Œdipe_à_Colone_,_la_rage.xml -> 10 
+Souhaitez vous afficher le meilleur résultat (y/n)? y
+[H[2J[3JAppuyer sur la touche Entrée pour continuer...
+
+[H[2J[3J///	MENU RECHERCHE TEXTE	///
+Vous souhaitez lancer une recherche : 
+1. Par critères
+2.Par Document
+
+3. Retour
+Veuillez choisir une action :
+3
+[H[2J[3J///	MENU RECHERCHE	///
+1. Recherche Audio
+2. Recherche Image
+3. Recherche Texte
+4. Retour
+Veuillez choisir une action :
+4
+[H[2J[3J///	MENU	///
+1. Indexation
+2. Recherche
+3. Réinitialiser le mot de passe
+4. Retour
+Veuillez choisir une action :
+1
+Veuillez entrer le mot de passe admin : vendre
+[H[2J[3J///	MENU INDEXATION	///
+1. Indexation audio
+2. Indexation Image
+3. Indexation Texte
+4. Retour
+Veuillez choisir une action :
+2
+[H[2J[3J///	MENU INDEXATION IMAGE	///
+1. Indexer un fichier
+2. Indexer un dossier
+3. Retour
+Veuillez choisir une action :
+2
+Entrer un nom de dossier correct à indexer : module_image/tests/TEST_RGB/txt
+
+
+1. Indexation noir et blanc
+2. Indexation couleur
+Veuillez choisir une action.
+2
+basec module_image/tests/TEST_RGB/txt/01.txt 
+basec module_image/tests/TEST_RGB/txt/37.txt 
+basec module_image/tests/TEST_RGB/txt/11.txt 
+basec module_image/tests/TEST_RGB/txt/31.txt 
+basec module_image/tests/TEST_RGB/txt/09.txt 
+basec module_image/tests/TEST_RGB/txt/34.txt 
+basec module_image/tests/TEST_RGB/txt/20.txt 
+basec module_image/tests/TEST_RGB/txt/10.txt 
+basec module_image/tests/TEST_RGB/txt/04.txt 
+basec module_image/tests/TEST_RGB/txt/48.txt 
+basec module_image/tests/TEST_RGB/txt/16.txt 
+basec module_image/tests/TEST_RGB/txt/35.txt 
+basec module_image/tests/TEST_RGB/txt/14.txt 
+basec module_image/tests/TEST_RGB/txt/28.txt 
+basec module_image/tests/TEST_RGB/txt/32.txt 
+basec module_image/tests/TEST_RGB/txt/44.txt 
+basec module_image/tests/TEST_RGB/txt/40.txt 
+basec module_image/tests/TEST_RGB/txt/17.txt 
+basec module_image/tests/TEST_RGB/txt/25.txt 
+basec module_image/tests/TEST_RGB/txt/26.txt 
+basec module_image/tests/TEST_RGB/txt/24.txt 
+basec module_image/tests/TEST_RGB/txt/50.txt 
+basec module_image/tests/TEST_RGB/txt/07.txt 
+basec module_image/tests/TEST_RGB/txt/13.txt 
+basec module_image/tests/TEST_RGB/txt/36.txt 
+basec module_image/tests/TEST_RGB/txt/22.txt 
+basec module_image/tests/TEST_RGB/txt/47.txt 
+basec module_image/tests/TEST_RGB/txt/39.txt 
+basec module_image/tests/TEST_RGB/txt/06.txt 
+basec module_image/tests/TEST_RGB/txt/23.txt 
+basec module_image/tests/TEST_RGB/txt/43.txt 
+basec module_image/tests/TEST_RGB/txt/19.txt 
+basec module_image/tests/TEST_RGB/txt/27.txt 
+basec module_image/tests/TEST_RGB/txt/15.txt 
+basec module_image/tests/TEST_RGB/txt/38.txt 
+basec module_image/tests/TEST_RGB/txt/33.txt 
+basec module_image/tests/TEST_RGB/txt/41.txt 
+basec module_image/tests/TEST_RGB/txt/03.txt 
+basec module_image/tests/TEST_RGB/txt/29.txt 
+basec module_image/tests/TEST_RGB/txt/08.txt 
+basec module_image/tests/TEST_RGB/txt/30.txt 
+basec module_image/tests/TEST_RGB/txt/21.txt 
+basec module_image/tests/TEST_RGB/txt/18.txt 
+basec module_image/tests/TEST_RGB/txt/49.txt 
+basec module_image/tests/TEST_RGB/txt/05.txt 
+basec module_image/tests/TEST_RGB/txt/12.txt 
+basec module_image/tests/TEST_RGB/txt/02.txt 
+basec module_image/tests/TEST_RGB/txt/46.txt 
+basec module_image/tests/TEST_RGB/txt/45.txt 
+basec module_image/tests/TEST_RGB/txt/42.txt 
+	=======INDEXATION DOSSIER TERMINÉE=======
+Retour au menu Indexation image...
+Appuyer sur la touche Entrée pour continuer...
+
+[H[2J[3J///	MENU INDEXATION IMAGE	///
+1. Indexer un fichier
+2. Indexer un dossier
+3. Retour
+Veuillez choisir une action :
+2
+Entrer un nom de dossier correct à indexer : module_image/tests/TEST_NB/txt
+
+
+1. Indexation noir et blanc
+2. Indexation couleur
+Veuillez choisir une action.
+1
+basec module_image/tests/TEST_NB/txt/59.txt 
+basec module_image/tests/TEST_NB/txt/63.txt 
+basec module_image/tests/TEST_NB/txt/56.txt 
+basec module_image/tests/TEST_NB/txt/57.txt 
+basec module_image/tests/TEST_NB/txt/60.txt 
+basec module_image/tests/TEST_NB/txt/62.txt 
+basec module_image/tests/TEST_NB/txt/58.txt 
+basec module_image/tests/TEST_NB/txt/51.txt 
+basec module_image/tests/TEST_NB/txt/55.txt 
+basec module_image/tests/TEST_NB/txt/54.txt 
+basec module_image/tests/TEST_NB/txt/53.txt 
+basec module_image/tests/TEST_NB/txt/61.txt 
+basec module_image/tests/TEST_NB/txt/52.txt 
+	=======INDEXATION DOSSIER TERMINÉE=======
+Retour au menu Indexation image...
+Appuyer sur la touche Entrée pour continuer...
+
+[H[2J[3J///	MENU INDEXATION IMAGE	///
+1. Indexer un fichier
+2. Indexer un dossier
+3. Retour
+Veuillez choisir une action :
+3
+[H[2J[3J///	MENU INDEXATION	///
+1. Indexation audio
+2. Indexation Image
+3. Indexation Texte
+4. Retour
+Veuillez choisir une action :
+4
+[H[2J[3J///	MENU	///
+1. Indexation
+2. Recherche
+3. Réinitialiser le mot de passe
+4. Retour
+Veuillez choisir une action :
+2
+[H[2J[3J///	MENU RECHERCHE	///
+1. Recherche Audio
+2. Recherche Image
+3. Recherche Texte
+4. Retour
+Veuillez choisir une action :
+2
+[H[2J[3J///	MENU INDEXATION IMAGE	///
+1. Recherche par critère
+2. Recherche par document
+3. Retour
+Veuillez choisir une action :
+1
+Entrez un code RGB :
+Valeur du rouge : 247
+Valeur du vert : 249
+Valeur du bleu : 235
+couleur : 63
+module_image/tests/TEST_RGB/txt/18.txt contient cette couleur à 85.445000 pourcents
+module_image/tests/TEST_RGB/txt/27.txt contient cette couleur à 78.000000 pourcents
+module_image/tests/TEST_RGB/txt/44.txt contient cette couleur à 68.000000 pourcents
+module_image/tests/TEST_RGB/txt/05.txt contient cette couleur à 62.202499 pourcents
+module_image/tests/TEST_RGB/txt/47.txt contient cette couleur à 62.000000 pourcents
+module_image/tests/TEST_RGB/txt/22.txt contient cette couleur à 54.000000 pourcents
+module_image/tests/TEST_RGB/txt/13.txt contient cette couleur à 54.000000 pourcents
+module_image/tests/TEST_RGB/txt/46.txt contient cette couleur à 51.974998 pourcents
+module_image/tests/TEST_RGB/txt/26.txt contient cette couleur à 49.000000 pourcents
+module_image/tests/TEST_RGB/txt/25.txt contient cette couleur à 49.000000 pourcents
+module_image/tests/TEST_RGB/txt/19.txt contient cette couleur à 42.000000 pourcents
+module_image/tests/TEST_RGB/txt/06.txt contient cette couleur à 34.000000 pourcents
+module_image/tests/TEST_RGB/txt/01.txt contient cette couleur à 34.000000 pourcents
+Appuyer sur la touche Entrée pour continuer...
+
+[H[2J[3J///	MENU INDEXATION IMAGE	///
+1. Recherche par critère
+2. Recherche par document
+3. Retour
+Veuillez choisir une action :
+2
+[H[2J[3JVous souhaitez lancer une recherche dans :
+1. Les documents Noirs et Blancs
+2. Les documents RGB
+Veuillez choisir une action :
+2
+Entrez un chemin vers un fichier : module_image/tests/TEST_RGB/txt/45.txt
+Appuyer sur la touche Entrée pour continuer...
+
+[H[2J[3J///	MENU INDEXATION IMAGE	///
+1. Recherche par critère
+2. Recherche par document
+3. Retour
+Veuillez choisir une action :
+2
+[H[2J[3JVous souhaitez lancer une recherche dans :
+1. Les documents Noirs et Blancs
+2. Les documents RGB
+Veuillez choisir une action :
+2
+Entrez un chemin vers un fichier : module_image/tests/TEST_RGB/txt/01.txt
+module_image/tests/TEST_RGB/txt/09.txt est similaire à 79.687500 pourcents
+module_image/tests/TEST_RGB/txt/08.txt est similaire à 78.125000 pourcents
+module_image/tests/TEST_RGB/txt/04.txt est similaire à 76.000000 pourcents
+module_image/tests/TEST_RGB/txt/19.txt est similaire à 75.000000 pourcents
+module_image/tests/TEST_RGB/txt/18.txt est similaire à 75.000000 pourcents
+module_image/tests/TEST_RGB/txt/02.txt est similaire à 75.000000 pourcents
+module_image/tests/TEST_RGB/txt/12.txt est similaire à 73.000000 pourcents
+module_image/tests/TEST_RGB/txt/03.txt est similaire à 73.000000 pourcents
+module_image/tests/TEST_RGB/txt/38.txt est similaire à 71.000000 pourcents
+module_image/tests/TEST_RGB/txt/30.txt est similaire à 70.000000 pourcents
+Appuyer sur la touche Entrée pour continuer...
+
+[H[2J[3J///	MENU INDEXATION IMAGE	///
+1. Recherche par critère
+2. Recherche par document
+3. Retour
+Veuillez choisir une action :
+2
+[H[2J[3JVous souhaitez lancer une recherche dans :
+1. Les documents Noirs et Blancs
+2. Les documents RGB
+Veuillez choisir une action :
+1
+Entrez un chemin vers un fichier : module_iage    image/tests/TEST_NB/txt/51/ .txt
+module_image/tests/TEST_NB/txt/52.txt est similaire à 100.000000 pourcents
+module_image/tests/TEST_NB/txt/53.txt est similaire à 87.000000 pourcents
+Appuyer sur la touche Entrée pour continuer...
+
+[H[2J[3J///	MENU INDEXATION IMAGE	///
+1. Recherche par critère
+2. Recherche par document
+3. Retour
+Veuillez choisir une action :
+3
+[H[2J[3J///	MENU RECHERCHE	///
+1. Recherche Audio
+2. Recherche Image
+3. Recherche Texte
+4. Retour
+Veuillez choisir une action :
+4
+[H[2J[3J///	MENU	///
+1. Indexation
+2. Recherche
+3. Réinitialiser le mot de passe
+4. Retour
+Veuillez choisir une action :
+1
+Veuillez entrer le mot de passe admin : vendre
+[H[2J[3J///	MENU INDEXATION	///
+1. Indexation audio
+2. Indexation Image
+3. Indexation Texte
+4. Retour
+Veuillez choisir une action :
+1
+[H[2J[3J///	MENU INDEXATION AUDIO	///
+1. Indexer un fichier
+2. Indexer un dossier
+3. Sauvegarder la progression
+4. Retour
+Veuillez choisir une action :
+2
+Entrer un nom de dossier correct à indexer : modue  ule_audio/WE AV_FILES
+Entrer le nombre de fenêtres d'analyses (Valeur recommandée 5): 5
+Entrer le nombre d'intervalles (Valeur recommandée 30): 3à 0
+
+
+	=======INDEXATION DOSSIER TERMINÉE=======
+Retour au menu Indexation audio...
+Appuyer sur la touche Entrée pour continuer...
+
+[H[2J[3J///	MENU INDEXATION AUDIO	///
+1. Indexer un fichier
+2. Indexer un dossier
+3. Sauvegarder la progression
+4. Retour
+Veuillez choisir une action :
+4
+Vous n'avez pas sauvegardé. Souhaitez vous sauvegarder (y/n) ? y
+Sauvegarde de la base de descripteurs...
+Sauvegarde effectuée avec succès !
+Appuyer sur la touche Entrée pour continuer...
+
+[H[2J[3J///	MENU INDEXATION	///
+1. Indexation audio
+2. Indexation Image
+3. Indexation Texte
+4. Retour
+Veuillez choisir une action :
+4
+[H[2J[3J///	MENU	///
+1. Indexation
+2. Recherche
+3. Réinitialiser le mot de passe
+4. Retour
+Veuillez choisir une action :
+2
+[H[2J[3J///	MENU RECHERCHE	///
+1. Recherche Audio
+2. Recherche Image
+3. Recherche Texte
+4. Retour
+Veuillez choisir une action :
+1
+[H[2J[3J///	MENU RECHERCHE AUDIO	///
+1. Recherche par document
+2. Retour
+Veuillez choisir une action :
+1
+Entrer un nom de fichier correct à indexer : moduke  le_audio_WEV    /WAV_FILES_jinle_fi.wav             /jingle_fi.wav
+Liste des résultats (1 trouvé(s)):
+	 Résultat 1 dans le fichier 'module_audio/WAV_FILES/corpus_fi.wav':
+		 Resultat 1-1: 29.379863
+Voulez vous ouvrir un document à la position trouvée (y/n) ? y
+Entrez le numéro du résultat (ex. 1-2, saisir 1): 1
+Entrez l'identifiant du résultat (ex. 1-2, saisir 2): 1
+Ouverture du fichier 'module_audio/WAV_FILES/corpus_fi.wav' à 29.4 secondes.
+VLC media player 3.0.9.2 Vetinari (revision 3.0.9.2-0-gd4c1aefe4d)
+[[32;1m00005562b1bfd5b0[0m] main libvlc: [0;1mLancement de vlc avec l'interface par défaut. Utiliser « cvlc » pour démarrer VLC sans interface.[0m
+QObject::~QObject: Timers cannot be stopped from another thread
+Appuyer sur la touche Entrée pour continuer...
+
+[H[2J[3J///	MENU RECHERCHE AUDIO	///
+1. Recherche par document
+2. Retour
+Veuillez choisir une action :
+2
+[H[2J[3J///	MENU RECHERCHE	///
+1. Recherche Audio
+2. Recherche Image
+3. Recherche Texte
+4. Retour
+Veuillez choisir une action :
+2 4
+[H[2J[3J///	MENU	///
+1. Indexation
+2. Recherche
+3. Réinitialiser le mot de passe
+4. Retour
+Veuillez choisir une action :
+1
+Veuillez entrer le mot de passe admin : vn  vendre
+[H[2J[3J///	MENU INDEXATION	///
+1. Indexation audio
+2. Indexation Image
+3. Indexation Texte
+4. Retour
+Veuillez choisir une action :
+1
+[H[2J[3J///	MENU INDEXATION AUDIO	///
+1. Indexer un fichier
+2. Indexer un dossier
+3. Sauvegarder la progression
+4. Retour
+Veuillez choisir une action :
+1
+Entrer un nom de fichier correct à indexer : module_audio/TEST_SON/jignle_fi.w WAV
+Entrer un nom de fichier correct à indexer : MODULE_       module_audio/TES_ T_SON/jingle_fi.wav
+Entrer le nombre de fenêtres d'analyses (Valeur recommendée 5): 5
+Entrer le nombre d'intervalles (Valeur recommendée 30): 30
+
+
+	=======INDEXATION FICHIERS TERMINÉE=======
+Retour au menu Indexation audio...
+Appuyer sur la touche Entrée pour continuer...
+
+[H[2J[3J///	MENU INDEXATION AUDIO	///
+1. Indexer un fichier
+2. Indexer un dossier
+3. Sauvegarder la progression
+4. Retour
+Veuillez choisir une action :
+4
+Vous n'avez pas sauvegardé. Souhaitez vous sauvegarder (y/n) ? y
+Sauvegarde de la base de descripteurs...
+Sauvegarde effectuée avec succès !
+Appuyer sur la touche Entrée pour continuer...
+
+[H[2J[3J///	MENU INDEXATION	///
+1. Indexation audio
+2. Indexation Image
+3. Indexation Texte
+4. Retour
+Veuillez choisir une action :
+4
+[H[2J[3J///	MENU	///
+1. Indexation
+2. Recherche
+3. Réinitialiser le mot de passe
+4. Retour
+Veuillez choisir une action :
+2
+[H[2J[3J///	MENU RECHERCHE	///
+1. Recherche Audio
+2. Recherche Image
+3. Recherche Texte
+4. Retour
+Veuillez choisir une action :
+1
+[H[2J[3J///	MENU RECHERCHE AUDIO	///
+1. Recherche par document
+2. Retour
+Veuillez choisir une action :
+1
+Entrer un nom de fichier correct à indexer : module_TEST_SON/jingle_fi.wav^[[D^[[D^[[D^[[D^[[D
+Entrer un nom de fichier correct à indexer : module_audio/TEST_SON/jingle_fi.wav
+Liste des résultats (2 trouvé(s)):
+	 Résultat 1 dans le fichier 'module_audio/WAV_FILES/corpus_fi.wav':
+		 Resultat 1-1: 29.379863
+	 Résultat 2 dans le fichier 'module_audio/WAV_FILES/jingle_fi.wav':
+		 Resultat 2-1: 0.000000
+Voulez vous ouvrir un document à la position trouvée (y/n) ? n
+Dommage.
+Appuyer sur la touche Entrée pour continuer...
+
+[H[2J[3J///	MENU RECHERCHE AUDIO	///
+1. Recherche par document
+2. Retour
+Veuillez choisir une action :
+2
+[H[2J[3J///	MENU RECHERCHE	///
+1. Recherche Audio
+2. Recherche Image
+3. Recherche Texte
+4. Retour
+Veuillez choisir une action :
+4
+[H[2J[3J///	MENU	///
+1. Indexation
+2. Recherche
+3. Réinitialiser le mot de passe
+4. Retour
+Veuillez choisir une action :
+4
+[H[2J[3J]0;mathias@pop-os: ~/pfr/src[01;32mmathias@pop-os[00m:[01;34m~/pfr/src[00m$ xit[K[K[Ke[Kexit
+exit
+
+Script done on 2021-01-22 14:20:38+01:00 [COMMAND_EXIT_CODE="0"]

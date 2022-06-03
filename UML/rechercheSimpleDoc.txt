@@ -1,0 +1,29 @@
+@startuml
+Utilisateur -> System : lancerRecherche()
+
+System -> Utilisateur : "Quel type de document voulez-vous rechercher ? 1. Son 2. Image 3. Texte"
+Utilisateur -> System : entréeClavier(typeDoc)
+
+System -> Utilisateur : "Quel type de rechercher voulez-vous effectuer ? 1. Par document 2. Critères"
+Utilisateur -> System : entréeClavier(typeDoc)
+
+ref over Utilisateur, System : Paramètrage de la recherche
+
+alt document
+      System -> Utilisateur : "Veuillez saisir le chemin du fichier à rechercher"
+      Utilisateur -> System : entréeClavier(cheminFichier)
+
+System -> System : rechercheParDocument(cheminFichier,seuil,typeDoc)
+activate System
+System<--] : resulats
+deactivate System
+
+alt resultats == null
+    ref over Utilisateur, System : Affichage erreur
+else resulat
+   ref over Utilisateur, System : Affichage des résultats
+end
+else critère
+    ref over Utilisateur, System : Recherche par critères
+end
+@enduml
